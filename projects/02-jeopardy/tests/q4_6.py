@@ -1,0 +1,10 @@
+test = {   'name': 'q4_6',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> isinstance(column_props, bpd.Series)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> len(column_props) == 6\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> np.argmax(column_props)\n0', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 0 < column_props.iloc[0] < 1\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
